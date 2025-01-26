@@ -39,7 +39,7 @@ func generateShortURL(OriginalUrl string) string {
 	fmt.Println("Encoded to string : ", hash)
 
 	// we return the first 8 characters only .
-	// as there is almost no chance of creating the same hash again. so first 8 characters are enough
+	// as there is almost no chance of creating the same hash again.. so first 8 characters are enough
 	fmt.Println("final String ", hash[:8])
 	return hash[:8]
 }
